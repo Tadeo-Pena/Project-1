@@ -1,0 +1,99 @@
+.border {
+    border: 4px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+body {
+    background-image: url(../images/bako\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: black;
+    opacity: 85%;
+    
+}
+
+section {
+    background-color: black;
+    opacity: 85%;
+}
+
+article {
+    height: 400px;
+    background-color: black;
+    opacity: 85%;
+}
+
+aside {
+    height: 686.5px;
+    background-color: black;
+    opacity: 85%;
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 0 0 15px white;
+}
+
+nav {
+    background-color: black;
+    opacity: 85%;
+    position: sticky;
+    top: 20px;
+}
+
+nav img {
+    height: 75px;
+    width: 75px;
+}
+
+nav a {
+    margin-right: 100px;
+    text-shadow: 10 10 40px white;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: green;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+footer {
+    background-color: black;
+    opacity: 85%;
+    clear: both;
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 15px white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+}
